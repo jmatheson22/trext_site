@@ -9,13 +9,20 @@
 	<link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-	
+	<div class="modal hide fade" id="contact" style="z-index:20; top:300px;" tabindex="-1" data-backdrop="false" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-body">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<p class="lead"><i class="icon-envelope"></i> &nbsp;kira@trext.me <span class="gray">(for sales)</span></p>
+			<p class="lead"><i class="icon-envelope"></i> &nbsp;support@trext.me</p>
+			<p class="lead"><i class="icon-phone"></i> &nbsp;<a href="tel:8558366769">(855) 836-6769</a></p>
+		</div>
+	</div>	
 	<div id="header">
 		<a class="pull-left" href="#front"><img src="logo.png" width="90"/></a>
 		<ul id="nav">
 			<li><a href="#about">What is Trext?</a></li>
 			<li><a href="#pricing">Beta Pricing</a></li>
-			<li><a href="#contact">Contact</a></li>
+			<li><a href="#contact" data-toggle="modal">Contact</a></li>
 			<li><a href="#team">Team</li></a>
 			<li><a href="https://app.trext.me/login.html">Login</a></li>
 			<li><a href="https://app.trext.me/signup.html">Try it!</a></li>
@@ -205,17 +212,19 @@
 		<div class="container">
 			<div class="row">
 				<div class="span3">
+					<p><strong>Give us a call</strong><br/><a href="tel:8558366769">(855) 836-6769</a></p>
 					<!-- <a href="">The Trext Team</a><br/> -->
 					<!-- <a href="">Careers</a><br/> -->
 					
 				</div>
 
 				<div class="span3">
+					<p><strong>For sales, contact</strong><br/><a href="mailto:kira@trext.me">kira@trext.me</a></p>
 					<!-- <a href="">Advisors</a><br/> -->
 					<!-- <a href="">Support</a> -->
 				</div>
 				<div class="span3">
-					<p><strong>Give us a call</strong><br/><a href="tel:8558366769">(855) 836-6769</a></p>
+					
 				</div>
 				<div class="span3">
 					<a href="https://app.trext.me/signup.html" class="btn btn-warning btn-large" style="width:100%; font-weight:300">Get trexting &raquo;</a>
@@ -243,6 +252,7 @@
 		</div>
 	</div> -->
 	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 	<script>
 		var $window = $(window),
 			$document = $(document);
@@ -254,6 +264,15 @@
 				$("body,html").animate({scrollTop:$target.offset().top - parseInt($target.css("padding-top")) - 10},"slow");
 			}
 		});
+		  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37940961-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 	</script>
 
 </body>
