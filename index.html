@@ -97,9 +97,9 @@
 
 	<div id="pricing" class="section freeContainer" style="padding-top:40px; padding-bottom:40px;">
 		<div class="container">
-			<h1 class="pull-left">Beta Pricing</h1>
+			
 			<div style="width:35%; text-align:right;" class="pull-right">
-				<h3>Try Trext Free</h3>
+				<h1>Try Trext Free</h1>
 				<p class="lead">The trial never expires. Use it as long as you'd like. When you're ready to send real text messages, we'll set you up with a plan.</p>
 				<a href="https://app.trext.me/signup.html" class="btn pull-right btn-warning btn-large">Get trexting &raquo;</a>
 			</div>
@@ -109,6 +109,7 @@
 
 	<div class="section" style="background:#D2D7ED;">
 		<div class="container">
+			<h1>Beta Pricing</h1><br/>
 			<div class="row">
 				<div class="span4">
 					<h2>Seed</h2>
@@ -259,7 +260,7 @@
 		$("a").on('click',function(e) {
 			var $a = $(this),
 				$target = $($a.attr("href"));
-			if($a.attr("href")[0] === "#") { //if link is on same page
+			if($a.attr("href")[0] === "#" && $a.attr("href").indexOf("contact") === -1) { //if link is on same page
 				e.preventDefault();
 				$("body,html").animate({scrollTop:$target.offset().top - parseInt($target.css("padding-top")) - 10},"slow");
 			}
