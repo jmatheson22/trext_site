@@ -48,6 +48,7 @@
 			color:rgb(56, 58, 62);
 			font-size:1.3em;
 		}
+
 		#front .lead{
 			color:white;
 			font-size:2em;
@@ -116,3 +117,34 @@
 			color:black;
 			text-decoration: none;
 		}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) { 
+	#header{
+		display:none!important;
+	}
+	.screenshotContainer{
+		display:none;
+	}
+	#front{
+		display:none;
+	}
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+	#header{
+		display:none!important;
+	}
+	.screenshotContainer{
+		display:none;
+	}
+	#front{
+		display:none;
+	}
+}
+
+
