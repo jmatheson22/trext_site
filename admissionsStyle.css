@@ -1,0 +1,147 @@
+		html,body{
+			height:100%;
+			font-family: 'Lato', sans-serif!important;
+		}
+		h1,h2,h3{
+			font-family: 'Lato', sans-serif!important;
+			font-weight: 300;
+		}
+		#front{
+		}	
+		#second {
+			background: url("bluryTree.jpg") fixed no-repeat center top ; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			height:42%;
+		}
+		#header{
+			padding:20px;
+			padding-top:20px;
+			padding-left:50px;
+			padding-right:50px;
+			position: fixed;
+			z-index: 2;
+			background:white;
+			width:94%;
+			height:5%;
+			border-bottom:1px solid #D1D1D1;
+		}
+		.small{
+			font-size:0.6em;
+		}
+	#nav{
+			padding-top:3px;
+			float:right;
+			list-style: none;
+			margin-right:20px;
+		}
+		#nav li{
+			display:inline-block;
+			padding-left:1.7em;
+			padding-top:7px;
+		}
+		#nav li a{
+			color:rgb(56, 58, 62);
+			font-size:1.3em;
+		}
+
+		#front .lead{
+			font-size:2em;
+			line-height: 2em;
+		}
+		.icon-play-circle{
+			cursor: pointer;
+			position:absolute; top:41%; left:44%; font-size:12em; color:rgb(255,255,255);
+			opacity: 0.75;
+			transition:opacity 0.7s;
+
+		}
+		.icon-play-circle:hover {
+			opacity: 1;
+		}
+
+		.screenshotContainer {
+			background:url(screen.png);
+			background-size:1170px 744px;
+			background-repeat:no-repeat;min-height:760px;
+		}
+		.screenshotContainer video{
+			 height:608px; width:1086px; margin-top:80px; margin-left:41px;
+		}
+		.freeContainer {
+			background: url("signup.jpg") fixed no-repeat center top ; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			min-height:230px;
+			text-shadow: 1px 1px 1px #000;
+			color:white;
+		}
+
+		.somethingContainer {
+			background: url("bark.jpg") fixed no-repeat center top ; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+
+		.team {
+			background: url("team.jpg") fixed no-repeat center top ; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			min-height:500px;
+		}
+
+		.section {
+			padding-top:40px; padding-bottom:40px;
+		}
+
+		.gray{
+			color:gray;
+		}
+
+		.ilink{
+			color:gray;
+			transition: color 0.6s;
+		}
+		.ilink:hover{
+			color:black;
+			text-decoration: none;
+		}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) { 
+	#header{
+		display:none!important;
+	}
+	.screenshotContainer{
+		display:none;
+	}
+	#front{
+		display:none;
+	}
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+	#header{
+		display:none!important;
+	}
+	.screenshotContainer{
+		display:none;
+	}
+	#front{
+		display:none;
+	}
+}
+
+
