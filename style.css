@@ -68,6 +68,8 @@
 			-o-background-size: cover;
 			background-size: cover;
 			padding-bottom:0;
+			color:white;
+			text-shadow: 1px 1px 1px #000;
 		}
 
 		.freeContainer {
@@ -76,7 +78,7 @@
 			-moz-background-size: cover;
 			-o-background-size: cover;
 			background-size: cover;
-			min-height:230px;
+			min-height:215px;
 			text-shadow: 1px 1px 1px #000;
 			color:white;
 		}
