@@ -9,13 +9,26 @@
 	<link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+	<div class="modal hide fade" id="contact" style=" top:220px;" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h3 id="myModalLabel">Contact</h3>
+
+		</div>
+		<div class="modal-body">
+				<p class="lead"><i class="icon-envelope"></i> &nbsp;kira@trext.me <span class="gray">(for sales)</span></p>
+			<p class="lead"><i class="icon-envelope"></i> &nbsp;support@trext.me</p>
+			<p class="lead"><i class="icon-phone"></i> &nbsp;<a href="tel:8558366769">(855) 836-6769</a></p>
+		</div>
+	</div>
 	<div id="header">
 		<a class="pull-left" href="#front"><img src="trext_logo_no_leaf.png" style="width:90px; height:47px;" width="90"/></a>
 		<ul id="nav">
-			<li><a href="#about">What is Trext?</a></li>
-			<li><a href="#pricing">Beta Pricing</a></li>
-			<li><a href="#contact" data-toggle="modal">Contact</a></li>
-			<li><a href="#team">Team</li></a>
+			<li><a href="index.html#about">What is Trext?</a></li>
+			<li><a href="index.html#pricing">Beta Pricing</a></li>
+			<li><a href="index.html#contact" data-toggle="modal" role="button">Contact</a></li>
+			<li><a href="index.html#team">Team</li></a>
+			<li><a href="faq.html">FAQ</a></li>
 			<li><a href="https://app.trext.me/login.html">Login</a></li>
 			<li><a href="https://app.trext.me/signup.html">Try it!</a></li>
 		</ul>
@@ -64,7 +77,7 @@
 			<p>We recommend that you allow users to opt-in to getting texts. In the first text, ask if they'd like to participate and let them know they can text "stop" anytime. There are also laws about sending batch texts, especially for commercial purposes. See our <a href="./Trext-Best-Practices.pdf" target="_blank">Laws and Best Practices</a> document for more specific info.</p>
 		</article>
 		<article id="legal">
-			<h3>What's the legality of sending batch texts?</h3>
+			<h3>5. What's the legality of sending batch texts?</h3>
 			<p>We recommend you follow these best practices: <br/>
 				<strong>Be respectful</strong>: Be cognizant of the number of messages you're sending to avoid a poor user experience.<br/>
 				 <strong>Do only what you say</strong>: If you say you'll send weekly tips, don't send ads or other messages. Be compliant: When promoting a Trext tree, ensure that all forms of advertising include clear and conspicuous terms and conditions associated with offers and adheres to all state and federal regulations.</p>
@@ -85,32 +98,33 @@
 				<p>See our <a href="./Trext-Best-Practices.pdf" target="_blank">Laws and Best Practices</a> document for more specific info.</p>
 		</article>
 		<article id="international">
-			<h3>Can I use Trext internationally?</h3>
+			<h3>6. Can I use Trext internationally?</h3>
 			<p>When you sign up for an account, we will get you a unique U.S. phone number. Your end users can text into this number to access your Trext decision trees, however it might be costly for someone internationally to text a U.S. number. If you’re interested in using Trext in a specific country, contact us and we'll discuss the possibility.</p>
 		</article>
 		<article id="qualitative">
-			<h3>How does Trext handle numbers/quantitative responses?</h3>
+			<h3>7. How does Trext handle numbers/quantitative responses?</h3>
 			<p>
 				You can choose "=" from the drop down next to each response, then type a number.Or you can use the "&lt;" and "&gt;" signs. Remember there’s no "greater than or equal to" option, so you'll need to also include an "=" like this:
 			</p>
 			<img src="./faq_img/1.png"/>
 		</article>
 		<article id="quantitative">
-			<h3>How does Trext handle qualitative responses (whole sentences of feedback)?</h3>
+			<h3>8. How does Trext handle qualitative responses (whole sentences of feedback)?</h3>
 			<p>You can choose "otherwise" from the dropdown next to each response. This option will accept anything the user texts back. Use it to get someone's name, email or a sentence of feedback.</p>
 			<img src="./faq_img/4.png"/>
 		</article>
 		<article id="referencing">
-			<h3>How do I reference the end user's name or other info to personalize the conversation?</h3>
+			<h3>9. How do I reference the end user's name or other info to personalize the conversation?</h3>
 			<p>Just use brackets to refer to the name of the node you'd like to reference. For example, call the node "Name," then in the next node, use brackets around [Name]. You can use this feature to confirm someone's email, or give the conversation a personal tone. Be sure to choose the "otherwise" option to accept all texts because people's names will be different.</p>
 			<img src="./faq_img/3.png"/>
 		</article>
 		<article id="tree-transfer">
-			<h3>How do I transfer a conversation to another tree?</h3>
+			<h3>10. How do I transfer a conversation to another tree?</h3>
 			<p>At the node where you'd like to transfer, click the settings wheel in the upper right-hand corner. Choose the tree you'd like to link-up with. The end user will then seamlessly go from one tree to the next.</p>
 			<img src="./faq_img/5.png"/>
 		</article>
-
 	</div>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 </body>
 </html>

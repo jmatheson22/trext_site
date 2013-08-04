@@ -9,25 +9,31 @@
 	<link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-	<div class="modal hide fade" id="contact" style="z-index:20; top:220px;" tabindex="-1" data-backdrop="false" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-body">
+	<div class="modal hide fade" id="contact" style=" top:220px;" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-header">
 			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-			<p class="lead"><i class="icon-envelope"></i> &nbsp;kira@trext.me <span class="gray">(for sales)</span></p>
+			<h3 id="myModalLabel">Contact</h3>
+
+		</div>
+		<div class="modal-body">
+				<p class="lead"><i class="icon-envelope"></i> &nbsp;kira@trext.me <span class="gray">(for sales)</span></p>
 			<p class="lead"><i class="icon-envelope"></i> &nbsp;support@trext.me</p>
 			<p class="lead"><i class="icon-phone"></i> &nbsp;<a href="tel:8558366769">(855) 836-6769</a></p>
 		</div>
-	</div>	
+	</div>
 	<div id="header">
 		<a class="pull-left" href="#front"><img src="trext_logo_no_leaf.png" style="width:90px; height:47px;" width="90"/></a>
 		<ul id="nav">
 			<li><a href="#about">What is Trext?</a></li>
 			<li><a href="#pricing">Beta Pricing</a></li>
-			<li><a href="#contact" data-toggle="modal">Contact</a></li>
+			<li><a href="#contact" data-toggle="modal" role="button">Contact</a></li>
 			<li><a href="#team">Team</li></a>
+			<li><a href="faq.html">FAQ</a></li>
 			<li><a href="https://app.trext.me/login.html">Login</a></li>
 			<li><a href="https://app.trext.me/signup.html">Try it!</a></li>
 		</ul>
 	</div>
+
 	<section id="front">
 		<!-- <i class="icon-play-circle"></i> -->
 		<div style="position:absolute; left:12%; top:22%;width:350px; height:450px;">
