@@ -6,10 +6,18 @@
 			font-family: 'Lato', sans-serif!important;
 			font-weight: 300;
 		}
-	
+
+		#videoLink{
+			text-decoration: none;
+		}
+
+		#videoLink:hover {
+			text-decoration: none;
+		}
+
 		#front {
 			height:95%;
-			background: url("front.jpg") fixed no-repeat center top ; 
+			background: url("front.jpg") fixed no-repeat center top ;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
@@ -62,7 +70,7 @@
 		}
 
 		.screenshotContainer {
-			background: url("bluryTree.jpg") fixed no-repeat center top ; 
+			background: url("bluryTree.jpg") fixed no-repeat center top ;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
@@ -73,7 +81,7 @@
 		}
 
 		.freeContainer {
-			background: url("signup.jpg") fixed no-repeat center top ; 
+			background: url("signup.jpg") fixed no-repeat center top ;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
@@ -84,7 +92,7 @@
 		}
 
 		.somethingContainer {
-			background: url("bark.jpg") fixed no-repeat center top ; 
+			background: url("bark.jpg") fixed no-repeat center top ;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
@@ -92,7 +100,7 @@
 		}
 
 		.team {
-			background: url("team.jpg") fixed no-repeat center top ; 
+			background: url("team.jpg") fixed no-repeat center top ;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
@@ -118,9 +126,9 @@
 		}
 
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) { 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
 	#header{
 		display:none!important;
 	}
@@ -132,9 +140,9 @@ and (max-device-width : 480px) {
 	}
 }
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)  { 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
 	#header{
 		display:none!important;
 	}
